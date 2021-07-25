@@ -21,15 +21,28 @@ const HomePage = (props) => {
         marginBottom: '5vh'
       }}
     >
-      <div style={{ width: '60vw', display: 'flex', marginBottom: '15vh' }}>
+      <div
+        className="header-div"
+        style={{
+          maxWidth: '60%',
+          display: 'flex',
+          alignItems: 'center',
+          marginBottom: '15vh'
+        }}
+      >
         <img
-          style={{ width: '40%', borderRadius: '500px', marginRight: '30px' }}
+          style={{
+            maxWidth: '100%',
+            height: '50%',
+            borderRadius: '500px',
+            marginRight: '30px'
+          }}
           src={Picture}
           alt="Me"
         />
         <div
           style={{
-            width: '60%',
+            width: '50%',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center'
@@ -118,15 +131,12 @@ const HomePage = (props) => {
         </div>
 
         <div style={{ width: '75vw' }}>
-          <div
-            className="project"
-            style={{ display: 'flex', flexDirection: 'row' }}
-          >
+          <div className="project">
             <img
               src={Inkwell}
               alt="Inkwell"
               style={{
-                width: '50%',
+                // width: '50%',
                 borderTopLeftRadius: '10px',
                 borderBottomLeftRadius: '10px'
               }}
