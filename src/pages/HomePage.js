@@ -246,7 +246,7 @@ const HomePage = (props) => {
                 marginLeft: '25px'
               }}
             >
-              <div style={{ fontSize: '30px' }}>Retriver</div>
+              <div style={{ fontSize: '30px' }}>Retriever</div>
               <div>
                 On a team of 4, I was in charge of the Front-end for this
                 Full-Stack application. Utilized SQL, Sequelize, and
@@ -341,7 +341,7 @@ const HomePage = (props) => {
                 marginLeft: '25px'
               }}
             >
-              <div style={{ fontSize: '30px' }}>The Hoot</div>
+              <div style={{ fontSize: '30px' }}>Rare Pokedex</div>
               <div>
                 Full-Stack application I built with a partner in just a day.
                 Rare Pokedex serves a database for selling Pokemon Cards. This
